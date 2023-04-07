@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-durable-object",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/nicgene/nuxt-durable-object#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicgene/nuxt-durable-object.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicgene/nuxt-durable-object/issues"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.0",
+    "@cloudflare/workers-types": "^4.20230321.0",
+    "nitro-custom": "timhanlon/nitro#feat/cloudflare-module",
+    "nuxt": "^3.3.1",
+    "vue": "^3.2.47"
+  }
+}

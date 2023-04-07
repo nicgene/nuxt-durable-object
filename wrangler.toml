@@ -1,0 +1,20 @@
+account_id = ""
+compatibility_date = "2023-04-06"
+main = ".output/server/index.mjs"
+name = "nuxt-durable-object"
+workers_dev = true
+
+[site]
+bucket = ".output/public"
+
+[build]
+command = "NITRO_PRESET=./preset yarn build"
+
+[durable_objects]
+bindings = [
+  { name = "CHAT", class_name = "Chat" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Chat"]
