@@ -11,6 +11,9 @@ import { requestHasBody } from "nitropack/dist/runtime/utils";
 import { nitroApp } from "#internal/nitro/app";
 import { useRuntimeConfig } from "#internal/nitro";
 import { getPublicAssetMeta } from "#internal/nitro/virtual/public-assets";
+import { Chat } from "../server/DurableObject";
+
+export { Chat }
 
 export default {
   async fetch(request, env, ctx: ExecutionContext) {
