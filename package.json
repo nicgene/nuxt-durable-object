@@ -20,6 +20,7 @@
   "devDependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.0",
     "@cloudflare/workers-types": "^4.20230321.0",
+    "@types/node": "^18.15.11",
     "nitro-custom": "timhanlon/nitro#feat/cloudflare-module",
     "nuxt": "^3.3.1",
     "vue": "^3.2.47"
